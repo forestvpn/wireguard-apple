@@ -5,6 +5,8 @@ import Foundation
 
 #if SWIFT_PACKAGE
 import WireGuardKitC
+#else
+import WireGuardKit.WireGuardKitC
 #endif
 
 /// The class describing a private key used by WireGuard.
